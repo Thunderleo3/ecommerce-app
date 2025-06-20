@@ -1,12 +1,15 @@
-# React + Vite
+# Comforty – Chair eCommerce App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Comforty** is a modern eCommerce web application focused exclusively on chairs — from modern stylish seating to stylish lounge and wooden chairs. Built with React and Tailwind CSS, it offers users a smooth, secure, and responsive shopping experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- **Elegant Design:** Clean, responsive interface built using React and Tailwind CSS.
+- **Chair Categories:** Shop by sofa, armchair, desk chair, wooden chair, wing chair, and park bench.
+- **Search & Filter:** Easily find the right chair by type, color, and price.
+- **Secure Checkout:** Integrates payment methods like Credit Card and Bank Transfer.
+- **Customer Reviews:** Real reviews from happy clients improve decision-making.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---

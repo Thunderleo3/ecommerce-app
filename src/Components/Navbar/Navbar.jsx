@@ -143,16 +143,28 @@ const Navbar = () => {
               >
                 Home
               </NavLink>
-              <NavLink className="text-sm text-[#636270] font-inter font-medium capitalize">
+              <NavLink
+                to="/shop"
+                className="text-sm text-[#636270] font-inter font-medium capitalize"
+              >
                 shop
               </NavLink>
-              <NavLink className="text-sm text-[#636270] font-inter font-medium capitalize">
+              <NavLink
+                to="/product"
+                className="text-sm text-[#636270] font-inter font-medium capitalize"
+              >
                 product
               </NavLink>
-              <NavLink className="text-sm text-[#636270] font-inter font-medium capitalize">
+              <NavLink
+                to="pages"
+                className="text-sm text-[#636270] font-inter font-medium capitalize"
+              >
                 pages
               </NavLink>
-              <NavLink className="text-sm text-[#636270] font-inter font-medium capitalize">
+              <NavLink
+                tp="about"
+                className="text-sm text-[#636270] font-inter font-medium capitalize"
+              >
                 about
               </NavLink>
             </nav>

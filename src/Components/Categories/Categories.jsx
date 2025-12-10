@@ -2,28 +2,34 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import SectionTitle from "./../SectionTitle/SectionTitle";
+import {
+  categoryImg1,
+  categoryImg2,
+  categoryImg3,
+  categoryImg4,
+} from "../../assets/categories";
 
 const Categories = () => {
   const categories = [
     {
       title: "Wing Chair",
       products: "3,584 Products",
-      image: "/src/assets/categories/categories_1.png",
+      image: categoryImg1,
     },
     {
       title: "Wooden Chair",
       products: "157 Products",
-      image: "/src/assets/categories/categories_2.png",
+      image: categoryImg2,
     },
     {
       title: "desk Chair",
       products: "154 Products",
-      image: "/src/assets/categories/categories_3.png",
+      image: categoryImg3,
     },
     {
       title: "Park Bench",
       products: "154 Products",
-      image: "/src/assets/categories/categories_4.png",
+      image: categoryImg4,
     },
   ];
 

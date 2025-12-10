@@ -3,6 +3,12 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { ShoppingCart } from "lucide-react";
+import {
+  productImg1,
+  productImg2,
+  productImg3,
+  productImg4,
+} from "../../assets/features";
 
 const Features = () => {
   const features = [
@@ -10,50 +16,50 @@ const Features = () => {
       title: "library stool",
       status: "New",
       price: "$250",
-      image: "/src/assets/features/product_1.png",
+      image: productImg1,
       currentPrice: "$200",
     },
     {
       title: "library stool Chair",
       status: "Sales",
       price: "$250",
-      image: "/src/assets/features/product_2.png",
+      image: productImg2,
     },
     {
       title: "library stool Chair",
       price: "$250",
-      image: "/src/assets/features/product_3.png",
+      image: productImg3,
     },
     {
       title: "library stool Chair",
       status: "New",
       price: "$250",
-      image: "/src/assets/features/product_4.png",
+      image: productImg4,
       currentPrice: "$200",
     },
     {
       title: "library stool",
       status: "New",
       price: "$250",
-      image: "/src/assets/features/product_1.png",
+      image: productImg1,
       currentPrice: "$200",
     },
     {
       title: "library stool Chair",
       status: "Sales",
       price: "$250",
-      image: "/src/assets/features/product_2.png",
+      image: productImg2,
     },
     {
       title: "library stool Chair",
       price: "$250",
-      image: "/src/assets/features/product_3.png",
+      image: productImg3,
     },
     {
       title: "library stool Chair",
       status: "New",
       price: "$250",
-      image: "/src/assets/features/product_4.png",
+      image: productImg4,
       currentPrice: "$200",
     },
   ];

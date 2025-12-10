@@ -1,32 +1,42 @@
+import {
+  brandImg1,
+  brandImg2,
+  brandImg3,
+  brandImg4,
+  brandImg5,
+  brandImg6,
+  brandImg7,
+} from "../../assets/brands";
+
 const Brand = () => {
   const brands = [
     {
       id: 1,
-      image: "/src/assets/brands/brand_1.png",
+      image: brandImg1,
     },
     {
       id: 2,
-      image: "/src/assets/brands/brand_2.png",
+      image: brandImg2,
     },
     {
       id: 3,
-      image: "/src/assets/brands/brand_3.png",
+      image: brandImg3,
     },
     {
       id: 4,
-      image: "/src/assets/brands/brand_4.png",
+      image: brandImg4,
     },
     {
       id: 5,
-      image: "/src/assets/brands/brand_5.png",
+      image: brandImg5,
     },
     {
       id: 6,
-      image: "/src/assets/brands/brand_6.png",
+      image: brandImg6,
     },
     {
       id: 7,
-      image: "/src/assets/brands/brand_7.png",
+      image: brandImg7,
     },
   ];
 

@@ -1,12 +1,10 @@
-import {
-  brandImg1,
-  brandImg2,
-  brandImg3,
-  brandImg4,
-  brandImg5,
-  brandImg6,
-  brandImg7,
-} from "../../assets/brands";
+import brandImg1 from "../../assets/brands/brand_1.png";
+import brandImg2 from "../../assets/brands/brand_2.png";
+import brandImg3 from "../../assets/brands/brand_3.png";
+import brandImg4 from "../../assets/brands/brand_4.png";
+import brandImg5 from "../../assets/brands/brand_5.png";
+import brandImg6 from "../../assets/brands/brand_6.png";
+import brandImg7 from "../../assets/brands/brand_7.png";
 
 const Brand = () => {
   const brands = [

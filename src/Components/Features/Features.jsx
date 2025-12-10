@@ -3,12 +3,10 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { ShoppingCart } from "lucide-react";
-import {
-  productImg1,
-  productImg2,
-  productImg3,
-  productImg4,
-} from "../../assets/features";
+import productImg1 from "../../assets/features/product_1.png";
+import productImg2 from "../../assets/features/product_2.png";
+import productImg3 from "../../assets/features/product_3.png";
+import productImg4 from "../../assets/features/product_4.png";
 
 const Features = () => {
   const features = [

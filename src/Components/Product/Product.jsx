@@ -1,16 +1,14 @@
 import { useState } from "react";
 import SectionTitle from "../SectionTitle/SectionTitle";
 import { ShoppingCart } from "lucide-react";
-import {
-  productImg1,
-  productImg2,
-  productImg3,
-  productImg4,
-  productImg5,
-  productImg6,
-  productImg7,
-  productImg8,
-} from "../../assets/products";
+import productImg1 from "../../assets/products/product_1.png";
+import productImg2 from "../../assets/products/product_2.png";
+import productImg3 from "../../assets/products/product_3.png";
+import productImg4 from "../../assets/products/product_4.png";
+import productImg5 from "../../assets/products/product_5.png";
+import productImg6 from "../../assets/products/product_6.png";
+import productImg7 from "../../assets/products/product_7.png";
+import productImg8 from "../../assets/products/product_8.png";
 
 const Product = () => {
   const [active, setActive] = useState({

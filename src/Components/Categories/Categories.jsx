@@ -2,12 +2,10 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import SectionTitle from "./../SectionTitle/SectionTitle";
-import {
-  categoryImg1,
-  categoryImg2,
-  categoryImg3,
-  categoryImg4,
-} from "../../assets/categories";
+import categoryImg1 from "../../assets/categories/categories_1.png";
+import categoryImg2 from "../../assets/categories/categories_2.png";
+import categoryImg3 from "../../assets/categories/categories_3.png";
+import categoryImg4 from "../../assets/categories/categories_4.png";
 
 const Categories = () => {
   const categories = [
